@@ -8,16 +8,21 @@
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <script
+      src="https://kit.fontawesome.com/8a71e1abe9.js"
+      crossorigin="anonymous"
+    ></script>
     <link
-      href="https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap"
       rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css"
     />
   </head>
   <body>
     <section class="header">
       <nav>
         <a href="index.html"><img src="./assets/images/logo.jpg" alt="" /></a>
-        <div class="nav-links">
+        <div class="nav-links" id="navLinks">
+          <i class="fa-regular fa-circle-xmark" onclick="hideMenu()"></i>
           <ul>
             <li>
               <a href="">Home</a>
@@ -36,7 +41,29 @@
             </li>
           </ul>
         </div>
+        <i class="fa-solid fa-bars" onclick="showMenu()"></i>
       </nav>
+      <div class="text-box">
+        <h1>The Way Youth Basketball Should Be</h1>
+        <p>
+          Kansas City's Best Basketball Youth Program where we develop the next
+          generation of basketball stars!
+        </p>
+        <a href="" class="hero-btn">Visit Us To Know More</a>
+      </div>
     </section>
+
+    <!-- Nav Link Javascript for Menu -->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
   </body>
 </html>
