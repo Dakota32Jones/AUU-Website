@@ -4,11 +4,8 @@
 }
 .header {
   min-height: 100vh;
-  width: 100vw;
-  background-image: linear-gradient(
-    rgba (4, 9, 30, 0, 7),
-    rgba (4, 9, 30, 0, 7) url(images/Basketball-court.jpg)
-  );
+  width: 100%;
+  background-image: url("./assets/images/Basketball-court.jpg");
   background-size: center;
   background-position: cover;
   position: relative;
