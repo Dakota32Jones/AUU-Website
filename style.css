@@ -186,3 +186,66 @@ h3 {
     flex-direction: column;
   }
 }
+
+/* MoKan History/Track Record */
+
+.history {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.history-col {
+  flex-basis: 32%;
+  border-radius: 10px;
+
+  margin-bottom: 30px;
+  position: relative;
+  overflow: hidden;
+}
+
+.history-col img {
+  width: 100%;
+  display: block;
+}
+
+.layer {
+  background: transparent;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: white;
+}
+
+.layer h3 {
+  width: 100%;
+  font-size: 26px;
+  font-weight: 500;
+
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.layer:hover h3 {
+  bottom: 49%;
+  opacity: 1;
+  padding-left: 450px;
+  justify-content: center;
+}
+
+.layer p {
+  color: white;
+}
+
+.layer p:hover {
+  color: black;
+}
+
+.layer:hover {
+  background: rgba(255, 243, 243, 0.7);
+  color: black;
+}
