@@ -302,3 +302,9 @@ h3 {
   margin-left: 60px;
   flex-wrap: wrap;
 }
+
+@media (max-width: 700px) {
+  .sponsorship-cards {
+    flex-direction: column;
+  }
+}
