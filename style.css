@@ -185,6 +185,10 @@ h3 {
   .row {
     flex-direction: column;
   }
+  .layer:hover h3 {
+    justify-content: center;
+    margin-left: 60px;
+  }
 }
 
 /* MoKan History/Track Record */
