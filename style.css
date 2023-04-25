@@ -352,3 +352,16 @@ h3 {
   padding: 18px 0;
   font-size: 30px;
 }
+
+/*-------- about us page --------*/
+.sub-header {
+  text-align: center;
+  height: 50vh;
+  width: 100%;
+  background-image: url("./assets/images/about-us-background.jpg"),
+    linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7));
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  color: #fff;
+}
