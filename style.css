@@ -156,6 +156,7 @@ p {
 .row {
   margin-top: 5%;
   display: flex;
+
   justify-content: space-between;
 }
 
@@ -374,7 +375,7 @@ h3 {
 }
 
 .about-col {
-  flex-basis: 48%;
+  flex-basis: 31%;
   padding: 30px 2px;
 }
 
@@ -384,7 +385,7 @@ h3 {
 }
 
 .about-col h1 {
-  padding: 0;
+  padding: 10px;
 }
 
 .about-col p {
